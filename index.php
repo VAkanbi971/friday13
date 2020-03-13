@@ -17,6 +17,13 @@
   </style>
 </head>
 <body>
+<!-- Nav Start -->
+<!-- done to speed up the process for the addition of navs -->
+
+<?php
+    include("navbar.php");
+    ?>
+<!-- Nav End -->
     
 <!-- This is the title to our project. It is centered. -->
 
@@ -24,28 +31,6 @@
   <h1>Masks R Us</h1>
   <p></p> 
 </div>
-
-<!-- A simple nav bar with some placeholder links. -->
-
-<nav class="navbar navbar-expand-sm navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
 
 <!-- This is a container with headers with varying sizes. -->
 
@@ -66,4 +51,10 @@
       <p></p>
       <p>Due to the recent COVID-19 outbreak we are just pumping out masks for a fair price. These masks are next to impenetrable by any virus. We are here to make as many masks as humanly possible.</p>
 </body>
+<!-- Footer Start -->
+<!-- done to speed up the process for the addition of footers -->
+<?php
+    include("footer.php");
+    ?>
+<!-- Footer End -->
 </html>
